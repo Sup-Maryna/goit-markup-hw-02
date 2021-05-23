@@ -133,6 +133,10 @@ a {
 }
 
 /* section teams */
+.teams {
+  background: #f5f4fa;
+}
+
 .teams-title {
   font-weight: 700;
   font-size: 36px;
@@ -141,6 +145,7 @@ a {
   letter-spacing: 0.03em;
 }
 
+.teams-list-item h3,
 .teams-list-item p {
   font-size: 16px;
   line-height: 1.187;
@@ -148,11 +153,11 @@ a {
   letter-spacing: 0.03em;
 }
 
-.teams-list-text-bold {
+.teams-list-item-title {
   font-weight: 700;
 }
 
-.teams-list-text-color {
+.teams-list-item-text {
   color: var(--grey-color);
 }
 
@@ -176,7 +181,7 @@ a {
 }
 
 /* Paragraphs */
-.list-paragraph-bold {
+.list-title-bold {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -195,16 +200,17 @@ footer {
   background: var(--background-color);
   color: var(--white-color);
 }
+
 footer a.logo {
   color: var(--white-color);
 }
+
 address {
   font-style: normal;
   font-size: 14px;
   line-height: 1.714;
 }
+
 .footer-list-contacts li a {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.714;
 }
